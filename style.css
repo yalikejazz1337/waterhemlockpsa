@@ -1,3 +1,8 @@
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -18,7 +23,7 @@ li {
   display: block;
   margin: 0;
   border-bottom: 1px solid #ccc;
-  
+
 }
 
 li:last-child {
@@ -34,4 +39,76 @@ a {
 
 a:hover {
   background-color: #ddd;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 350px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6 {
+  flex-grow: 1;
+  flex-basis: 50%;
+  margin: 5px;
+  text-align: left;
+  margin-left: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    flex-basis: 100%;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #f2f2f2;
+  transition: all 0.3s ease-in-out;
+}
+
+#nav-btn {
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  font-size: 36px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#nav-btn:hover {
+  color: #f2f2f2;
+}
+
+.nav-open #nav-bar {
+  left: 0;
+}
+
+.nav-open #nav-btn {
+  left: 250px;
 }
