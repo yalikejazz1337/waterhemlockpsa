@@ -1,6 +1,7 @@
 body {
-
+  background-image: url(https://learnyourland.com/wp-content/uploads/2022/10/WaterHemlockLYLPost.jpg);
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 nav {
@@ -47,6 +48,8 @@ a:hover {
   align-items: left;
   flex-direction: column;
   margin-top: 400px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .row {
@@ -62,6 +65,7 @@ a:hover {
   margin: 5px;
   text-align: left;
   margin-left: 0px;
+  
 }
 
 
@@ -77,8 +81,11 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
-  text-align: center;
+  margin-right: 15px;
+  margin-left: 0px;
+  text-align: right;
+  font-size: 20px;
+  color: white;
 }
 
 
@@ -112,12 +119,13 @@ footer {
 }
 
 .nav-open #nav-btn {
-  left: 250px;
+  left: 275px;
 }
 
 .nav-open .col-md-6 {
   margin-left: 250px;  
 }
 
-
-
+#text-box-1 {
+  color: white;
+}
