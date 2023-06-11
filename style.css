@@ -131,19 +131,4 @@ footer {
 #text-box-1 {
   color: white;
 }
-
-.slideshow {
-  max-width: 50%;
-  position: relative;
-}
-.slideshow img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-.slideshow img.active {
-  opacity: 1;
-}
+ 
