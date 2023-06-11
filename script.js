@@ -4,3 +4,5 @@ const colmd6 = document.getElementById("col-md-6");
 navBtn.addEventListener("click", () => {
   document.body.classList.toggle("nav-open");
 });
+
+
