@@ -24,37 +24,22 @@
     </ul>
   </nav>
 
+   
+
+<div class="slideshow-container">
   <div class="slideshow">
     <img src="https://education.mdc.mo.gov/sites/default/files/media/images/2013/12/common_water_hemlock_spotted_cowbane_flowers_12-31-13.jpg" alt="Image 1" class="active">
     <img src="https://images.wagwalkingweb.com/media/articles/horse/water-hemlock-poisoning-1/water-hemlock-poisoning-1.jpg" alt="Image 2">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl_yvMSz_P7fSRgAscQKNAjsyoClM32TgQeA&usqp=CAU" alt="Image 3">
+  </div>
+  <!-- Add more slides as needed -->
+</div>
+<div class="info-box">
+  <h2>Where I Live</h2>
+  <p>The water hemlock mostly grows in the eastern parts of North America, blooming in June and July in wet meadows and on the banks of small streams and rivers.</p>
 </div>
 
-<script>
-    var slideIndex = 0;
-    showSlides();
 
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].classList.remove("active");
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
-        slides[slideIndex-1].classList.add("active");
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-</script>
-
-
-
-  <div id = "textbox"> 
-    <h1>Where I Live</h1>
-    <p>The water hemlock mostly grows in the eastern parts of North America,
-       blooming in June and July in wet meadows and on the banks of small streams and rivers.</p>
-
-  </div>
   <!-- footer -->      
   <footer>
     <p><span>&copy</span> Almish Subuktegin 2023</p>

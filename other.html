@@ -24,39 +24,30 @@
     </ul>
   </nav>
 
+
+<div class="slideshow-container">
   <div class="slideshow">
-    <img src="https://news.delaware.gov/files/2021/07/Poison-Hemlock-purple-spots.jpg" alt="Image 1" class="active">
+    <img src="https://news.delaware.gov/files/2021/07/Poison-Hemlock-purple-spots.jpg" alt="Image 1" class="active" style = "max-height: 70%; max-width: 70%;">
     <img src=https://www.gannett-cdn.com/indepth-static-assets/uploads/master/5481973001/616fdac1-13e9-4fb8-a8d2-cec11c0f91ca-poison-hemlock_topper.png?width=2160" alt="Image 2">
     <img src="https://www.gannett-cdn.com/indepth-static-assets/uploads/master/5481973001/616fdac1-13e9-4fb8-a8d2-cec11c0f91ca-poison-hemlock_topper.png?width=2160" alt="Image 3">
+  </div>
+  <!-- Add more slides as needed -->
+</div>
+<div class="info-box">
+  <h2>I Will Kill You</h2>
+  <p>The water hemlock is known for being deadly to humans because of the deadly toxins released by it.
+    Eating it can be lethal, and this is a big problem because it looks similar to other 
+    edible plants like the wild carrot or Queen Anne’s lace. 
+   A thorough guide on how to identify it can be found<a href="https://www.wikihow.com/Identify-Water-Hemlock">here.</a></p>
 </div>
 
-<script>
-    var slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("slideshow")[0].getElementsByTagName("img");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].classList.remove("active");
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
-        slides[slideIndex-1].classList.add("active");
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-</script>
 
 
 
-  <div id = "textbox"> 
-    <h1>I Will Kill You</h1>
-    <p>The water hemlock is known for being deadly to humans because of the deadly toxins released by it.
-       Eating it can be lethal, and this is a big problem because it looks similar to other 
-       edible plants like the wild carrot or Queen Anne’s lace. 
-      A thorough guide on how to identify it can be found<a href="https://www.wikihow.com/Identify-Water-Hemlock">here.</a></p>
 
-  </div>
+
+
+
   <!-- footer -->      
   <footer>
     <p><span>&copy</span> Almish Subuktegin 2023</p>
